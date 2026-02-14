@@ -1,0 +1,15 @@
+{
+  "name": "csiki-prokult-feed",
+  "version": "1.0.0",
+  "description": "Prokult.ro scraper",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.1",
+    "cheerio": "^1.0.0-rc.12",
+    "rss": "^1.2.2"
+  }
+}
